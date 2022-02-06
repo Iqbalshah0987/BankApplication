@@ -1,0 +1,68 @@
+Database Name - asm
+
+Table-1 Name - login
+Description-
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| CardNo | varchar(20) | YES  |     | NULL    |       |
+| PinNo  | varchar(10) | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+
+Table-2 Name - signup1
+Description-
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| FormNo        | varchar(10) | YES  |     | NULL    |       |
+| Name          | varchar(30) | YES  |     | NULL    |       |
+| FatherName    | varchar(30) | YES  |     | NULL    |       |
+| DateOfBirth   | varchar(30) | YES  |     | NULL    |       |
+| Gender        | varchar(10) | YES  |     | NULL    |       |
+| Email         | varchar(40) | YES  |     | NULL    |       |
+| MaritalStatus | varchar(20) | YES  |     | NULL    |       |
+| Address       | varchar(50) | YES  |     | NULL    |       |
+| City          | varchar(30) | YES  |     | NULL    |       |
+| PinCode       | varchar(10) | YES  |     | NULL    |       |
+| State         | varchar(30) | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+
+Table-3 Name - signup2
+Description-
++-----------------+-------------+------+-----+---------+-------+
+| Field           | Type        | Null | Key | Default | Extra |
++-----------------+-------------+------+-----+---------+-------+
+| FormNO          | varchar(10) | YES  |     | NULL    |       |
+| Religion        | varchar(20) | YES  |     | NULL    |       |
+| Category        | varchar(20) | YES  |     | NULL    |       |
+| Income          | varchar(20) | YES  |     | NULL    |       |
+| Qualification   | varchar(30) | YES  |     | NULL    |       |
+| Occupation      | varchar(20) | YES  |     | NULL    |       |
+| PanNo           | varchar(20) | YES  |     | NULL    |       |
+| AadhaarNO       | varchar(20) | YES  |     | NULL    |       |
+| SeniorCitizen   | varchar(10) | YES  |     | NULL    |       |
+| ExistingAccount | varchar(10) | YES  |     | NULL    |       |
++-----------------+-------------+------+-----+---------+-------+
+
+Table-4 Name -signup3
+Description-
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| FormNo      | varchar(10)  | YES  |     | NULL    |       |
+| AccountType | varchar(30)  | YES  |     | NULL    |       |
+| CardNo      | varchar(20)  | YES  |     | NULL    |       |
+| PinNO       | varchar(10)  | YES  |     | NULL    |       |
+| Services    | varchar(100) | YES  |     | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+
+Table-5 Name - bank
+Description-
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| PinNo   | varchar(10) | YES  |     | NULL    |       |
+| Date    | varchar(30) | YES  |     | NULL    |       |
+| Mode    | varchar(30) | YES  |     | NULL    |       |
+| Balance | varchar(30) | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
